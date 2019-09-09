@@ -12,3 +12,6 @@ Blog entry 09/09/2019
   https://github.com/gseridon/LumiMonitor/blob/master/Documentation/ProposalContentGinoSeridonLumi.pdf
   - Proposal Content (xlsx):
   https://github.com/gseridon/LumiMonitor/blob/master/Documentation/ProposalContentGinoSeridonLumi.xlsx
+
+  I have also activated the github master branch for the repository, enabling me to publish the repository website.
+  Link!: https://gseridon.github.io/LumiMonitor
