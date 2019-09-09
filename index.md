@@ -1,8 +1,8 @@
-<b>Blog entry 09/05/2019</b>
+<b>Entry01: 09/05/2019</b>
 
   First day working on the Lumi Monitor project. I did a bit of research for the project to try and brainstorm some ideas for it. I have created a repository today, as well as having completed my registration along with my group members on Riipen. I'm filling out the proposal with content pretaining to the Lumi monitor and will be uploading the finished documents on github.
 
-<b>Blog entry 09/09/2019</b>
+<b>Entry02: 09/09/2019</b>
 
   Completed the proposal content and the project proposal, and converted them into a PDF file. These files, along with the Excel  proposal sheet, are uploaded to my online repository, in the "Documentation" folder. I have also completed creating all the different folders needed in the repository today, leaving a note in each folder to dictate the folder's future content.
   
