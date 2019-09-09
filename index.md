@@ -5,6 +5,7 @@ Blog entry 09/05/2019
 Blog entry 09/09/2019
 
   Completed the proposal content and the project proposal, and converted them into a PDF file. These files, along with the Excel  proposal sheet, are uploaded to my online repository, in the "Documentation" folder.
+  I have also completed creating all the different folders needed in the repository today.
   The links for the uploaded documents are as follows:
   - Project Proposal (PDF):
   https://github.com/gseridon/LumiMonitor/blob/master/Documentation/ProjectProposalGinoSeridonLumi.pdf
