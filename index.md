@@ -16,4 +16,4 @@
 
   Lastly, I have activated the github master branch for the repository, enabling me to publish the repository website.
   
-  Link: https://gseridon.github.io/LumiMonitor
+  Link: <a href="https://gseridon.github.io/LumiMonitor">https://gseridon.github.io/LumiMonitor</a>
