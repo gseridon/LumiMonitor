@@ -14,3 +14,7 @@
   Lastly, I have activated the github master branch for the repository, enabling me to publish the repository website.
   
   Link: <a href="https://gseridon.github.io/LumiMonitor">https://gseridon.github.io/LumiMonitor</a>
+
+<b>Entry03: 09/10/2019</b>
+
+  Submission of the hard copy printout of the project proposal. I have completed a project schedule in the form of a gantt chart and have converted it into a PDF. This version is uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/LumiMonitorScheduleGanttChart.pdf">here.</a> This schedule is based off the due dates outlined in the <a href="https://six0four.github.io/ceng317/">CENG317 Course Repository.</a>
