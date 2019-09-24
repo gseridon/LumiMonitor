@@ -23,7 +23,9 @@
 <b>Entry04: 09/24/2019</b>
 
   Today my group members and I had our meeting with our collaborator, running our ideas through him and getting some feedback from him. He was very enthusiastic towards our ideas and offers his full support to the direction of our project.
+  
   I have uploaded the project budget for the LumiMonitor's temperature sensor, with the webcam price included.
   
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pd">Project Budget PFD</a>
+  
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.xlsx">Project Budget Excel</a>
