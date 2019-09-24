@@ -19,3 +19,10 @@
 
   Submission of the hard copy printout of the project proposal. I have completed a project schedule in the form of a gantt chart and have converted it into a PDF. This version is uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/LumiMonitorScheduleGanttChart.pdf">here.</a> This schedule is based off the due dates outlined in the <a href="https://six0four.github.io/ceng317/">CENG317 Course Repository.</a>
   Lastly, I have uploaded the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Week2ProjectProposalRubric.xml">project rubric</a> into the documentation folder.
+
+<b>Entry04: 09/24/2019</b>
+
+  Today my group members and I had our meeting with our collaborator, running our ideas through him and getting some feedback from him. He was very enthusiastic towards our ideas and offers his full support to the direction of our project.
+  I have uploaded the project budget for the LumiMonitor's temperature sensor, with the webcam price included.
+  
+  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pd">Project PFD</a>
