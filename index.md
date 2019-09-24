@@ -26,6 +26,6 @@
   
   I have uploaded the project budget for the LumiMonitor's temperature sensor, with the webcam price included.
   
-  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pd">Project Budget PFD</a>
+  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">Project Budget PFD</a>
   
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.xlsx">Project Budget Excel</a>
