@@ -20,7 +20,6 @@
   Submission of the hard copy printout of the project proposal. I have completed a project schedule in the form of a gantt chart and have converted it into a PDF. This version of the schedule is uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/LumiMonitorScheduleGanttChart.pdf">here.</a> 
   
   This schedule is based off the due dates outlined in the <a href="https://six0four.github.io/ceng317/">CENG317 Course Repository.</a>
-  Lastly, I have uploaded the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Week2ProjectProposalRubric.xml">project rubric</a> into the documentation folder.
 
 <b>Entry04: 09/24/2019</b>
 
