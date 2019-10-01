@@ -30,3 +30,10 @@
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">Project Budget PFD</a>
   
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.xlsx">Project Budget Excel</a>
+  
+<b>Entry05: 09/29/2019</b>
+
+  I have placed my order for the Raspberry Pi, the webcam, and the temperature sensor. I have also updated the project budget to include the additional purchase of the Raspberry Pi.
+
+Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder.png">Amazon</a>, 
+<a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/DigikeyOrder.png">Digikey</a>
