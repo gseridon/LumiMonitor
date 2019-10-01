@@ -1,6 +1,25 @@
-<b>Entry01: 09/05/2019</b>
+<b>Entry05: 09/29/2019</b>
 
-  First day working on the Lumi Monitor project. I did a bit of research for the project to try and brainstorm some ideas for it. I have created a repository today, as well as having completed my registration along with my group members on Riipen. I'm filling out the proposal with content pretaining to the Lumi monitor and will be uploading the finished documents on github.
+  I have placed my order for the Raspberry Pi, the webcam, and the temperature sensor. I have also updated the project budget to include the additional purchase of the Raspberry Pi.
+
+Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder.png">Amazon</a>, 
+<a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/DigikeyOrder.png">Digikey</a>
+
+<b>Entry04: 09/24/2019</b>
+
+  Today my group members and I had our meeting with our collaborator, running our ideas through him and getting some feedback from him. He was very enthusiastic towards our ideas and offers his full support to the direction of our project.
+  
+  I have uploaded the project budget for the LumiMonitor's temperature sensor, with the webcam price included.
+  
+  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">Project Budget PFD</a>
+  
+  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.xlsx">Project Budget Excel</a>
+
+<b>Entry03: 09/10/2019</b>
+
+  Submission of the hard copy printout of the project proposal. I have completed a project schedule in the form of a gantt chart and have converted it into a PDF. This version of the schedule is uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/LumiMonitorScheduleGanttChart.pdf">here.</a> 
+  
+  This schedule is based off the due dates outlined in the <a href="https://six0four.github.io/ceng317/">CENG317 Course Repository.</a>
 
 <b>Entry02: 09/09/2019</b>
 
@@ -15,25 +34,6 @@
   
   Link: <a href="https://gseridon.github.io/LumiMonitor">https://gseridon.github.io/LumiMonitor</a>
 
-<b>Entry03: 09/10/2019</b>
+<b>Entry01: 09/05/2019</b>
 
-  Submission of the hard copy printout of the project proposal. I have completed a project schedule in the form of a gantt chart and have converted it into a PDF. This version of the schedule is uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/LumiMonitorScheduleGanttChart.pdf">here.</a> 
-  
-  This schedule is based off the due dates outlined in the <a href="https://six0four.github.io/ceng317/">CENG317 Course Repository.</a>
-
-<b>Entry04: 09/24/2019</b>
-
-  Today my group members and I had our meeting with our collaborator, running our ideas through him and getting some feedback from him. He was very enthusiastic towards our ideas and offers his full support to the direction of our project.
-  
-  I have uploaded the project budget for the LumiMonitor's temperature sensor, with the webcam price included.
-  
-  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">Project Budget PFD</a>
-  
-  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.xlsx">Project Budget Excel</a>
-  
-<b>Entry05: 09/29/2019</b>
-
-  I have placed my order for the Raspberry Pi, the webcam, and the temperature sensor. I have also updated the project budget to include the additional purchase of the Raspberry Pi.
-
-Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder.png">Amazon</a>, 
-<a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/DigikeyOrder.png">Digikey</a>
+  First day working on the Lumi Monitor project. I did a bit of research for the project to try and brainstorm some ideas for it. I have created a repository today, as well as having completed my registration along with my group members on Riipen. I'm filling out the proposal with content pretaining to the Lumi monitor and will be uploading the finished documents on github.
