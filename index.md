@@ -12,8 +12,6 @@ Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/
   I have uploaded the project budget for the LumiMonitor's temperature sensor, with the webcam price included.
   
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">Project Budget PFD</a>
-  
-  Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.xlsx">Project Budget Excel</a>
 
 <b>Entry03: 09/10/2019</b>
 
@@ -28,7 +26,6 @@ Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/
   The links for the uploaded documents are as follows:
   - <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/ProjectProposalGinoSeridonLumi.pdf">Project Proposal (PDF)</a>
   - <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/ProposalContentGinoSeridonLumi.pdf">Proposal Content (PDF)</a>
-  - <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/ProposalContentGinoSeridonLumi.xlsx">Proposal Content (xlsx)</a>
 
   Lastly, I have activated the github master branch for the repository, enabling me to publish the repository website.
   
