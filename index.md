@@ -11,7 +11,8 @@
   The breadboard connection: 
   <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/BreadboardV1.png">
   
-  The PCB design of the connection:
+  The PCB design:
+  
   <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBV1.png">
   
   There are two fritzing files; one with the raspberry pi, and one without it (just for the PCB design):
