@@ -1,3 +1,11 @@
+<b>Entry05: 10/15/2019</b>
+  I have designed and uploaded the PCB file along with the schematic and breadboard image:
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">Schematic</a>, 
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">PCB</a>, 
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>,
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz>FZZ file</a>
+  
+
 <b>Entry05: 09/29/2019</b>
 
   I have placed my order for the Raspberry Pi, the webcam, and the temperature sensor. I have also updated the project budget to include the additional purchase of the Raspberry Pi.
