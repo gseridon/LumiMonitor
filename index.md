@@ -1,21 +1,22 @@
 <b>Entry05: 10/15/2019</b>
  
  I have designed and uploaded the PCB file along with the schematic and breadboard image:
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">Schematic</a>, 
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">PCB</a>, 
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>
-  
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/SchematicV1.png">Schematic</a>, 
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/BreadboardV1.png">Breadboard</a>
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCBV1.png">PCB</a>, 
+
   The schematic of the sensor and raspberry pi:
-  <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/Schematic.png">
+  <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/SchematicV1.png">
   
   The breadboard connection: 
-  <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/Breadboard.png">
+  <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/BreadboardV1.png">
   
   The PCB design of the connection:
-  <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCB.png">
+  <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBV1.png">
   
-  You can view my fritzing file here:
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">FZZ file</a>
+  There are two fritzing files; one with the raspberry pi, and one without it (just for the PCB design):
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">With Pi</a>,
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">Without Pi</a>
   
   The design of the board was fairly simple. Vin is the power pin, and it is connected to the 3 VDC pin on the raspberry pi.  The sensor's 3v3 pin is not used. The GND pin is the common ground for the power and logic.  The SCL pin is the I2C clock pin, which is connected to the raspberry pi's I2C clock line. The SDA pin is the I2C data pin, which is connected to the raspberry pi's I2C data line.
 
