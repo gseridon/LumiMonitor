@@ -3,7 +3,7 @@
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">Schematic</a>, 
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">PCB</a>, 
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>,
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz>FZZ file</a>
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">FZZ file</a>
   
 
 <b>Entry05: 09/29/2019</b>
