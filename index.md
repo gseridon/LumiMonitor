@@ -1,4 +1,4 @@
-<b>Entry05: 10/15/2019</b>
+<b>Entry06: 10/15/2019</b>
 
   The schematic of the sensor and raspberry pi:
   <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/SchematicV1.png">
