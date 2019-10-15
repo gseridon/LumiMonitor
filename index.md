@@ -5,9 +5,14 @@
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">PCB</a>, 
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>
   
-  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">, 
-  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">, 
+  The schematic of the sensor and raspberry pi:
+  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">
+  
+  The breadboard connection: 
   <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">
+  
+  The PCB design of the connection:
+  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">
   
   You can view my fritzing file here:
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">FZZ file</a>
