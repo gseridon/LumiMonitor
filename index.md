@@ -2,7 +2,9 @@
   I have designed and uploaded the PCB file along with the schematic and breadboard image:
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">Schematic</a>, 
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">PCB</a>, 
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>,
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>
+  
+  You can view my fritzing file here:
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">FZZ file</a>
   
 
