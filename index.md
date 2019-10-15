@@ -17,7 +17,7 @@
   
   There are two fritzing files; one with the raspberry pi, and one without it (just for the PCB design):
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">With Pi</a>,
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">Without Pi</a>
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorWithoutPiV1.fzz">Without Pi</a>
   
   The design of the board was fairly simple. Vin is the power pin, and it is connected to the 3 VDC pin on the raspberry pi.  The sensor's 3v3 pin is not used. The GND pin is the common ground for the power and logic.  The SCL pin is the I2C clock pin, which is connected to the raspberry pi's I2C clock line. The SDA pin is the I2C data pin, which is connected to the raspberry pi's I2C data line.
 
