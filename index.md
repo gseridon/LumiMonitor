@@ -4,6 +4,10 @@
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">PCB</a>, 
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">Breadboard</a>
   
+  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/Schematic.png">, 
+  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCB.png">, 
+  <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/Breadboard.png">
+  
   You can view my fritzing file here:
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorV1.fzz">FZZ file</a>
   
