@@ -17,7 +17,7 @@
   Over this past weekend, I had to re-order my Raspberry Pi as the parcel has been lost in the mail and could not be retrieved. Amazon was able to resend my purchase, and I have acquired the Raspberry Pi and the sensor by Sunday, October 13. There were no additional charges to this transaction, so I am on track with my financial status.  All the images (schematic, PCB, breadboard) and files (FZZ file using the pi and without it) regarding the hardware of the project has been uploaded into my repository, with the appropriate links in the blog post:
   
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/SchematicV1.png">Schematic</a>, 
-  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/BreadboardV1.png">Breadboard</a>
+  <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/BreadboardV1.png">Breadboard</a>,
   <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCBV1.png">PCB</a>
   
   
