@@ -17,7 +17,6 @@ I have found the code for the si7021 temperature/humidity sensor as well, and wi
 It is uploaded here.
 
 
-Thank you for your time!
 <b>Entry06: 10/15/2019</b>
 
   The schematic of the sensor and raspberry pi:
