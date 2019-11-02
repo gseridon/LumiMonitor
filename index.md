@@ -1,3 +1,22 @@
+<b>Entry06: 11/01/2019</b>
+I'm having a lot of problems with the Raspberry Pi at the moment, and it is severely delaying my progress with the course.
+I have set up an OS for the pi during the break, but the pi heats up extremely quickly within the first few minutes of being powered up. The microSD card that I was using for the pi burned out a few days ago as well. This pressured me to purchase another SD card last minute, which did not arrive until Wednesday of this week. This new SD card was also uploaded with the operating system, which the balenaEtcher is verifying to be acceptable to use. However, when I try to install the operating system now, the raspberry pi would still heat up very quickly, and it would show an error on the screen. I have tried several times to reupload the operating system into the SD card, each time the disk imager would verify that the loading was successful (I even used a different SD card from a friend on different attempts). But the same thing occurs, the raspberry pi would continuously show an error and stopping me from installing the operating system, thus halting my progress on the assignment.
+
+I'm considering on just purchasing the new Raspberry Pi 4, as I suspect that the Raspberry Pi 3 that I have purchase is faulty and corrupting the SD cards that I use for it. I will be purchasing the Raspberry Pi 4 this weekend and hope that it will arrive quickly, so that I can set up operating system once more and run the code for the si7021 temperature/humidity sensor.
+
+Financial wise, things have taken a turn for the worse. While I will be attempting to refund the Raspberry Pi 3, I have purchased a micro SD card in the process of troubleshooting my problems with the Pi. I will also be looking to purchase the complete set of the Raspberry Pi 4 for this weekend in hopes that I will be able to catch up with my schedule.
+
+This week's purchases:
+- MicroSD card: $11.97 CAD + $1.56, free shipping
+- Raspberry Pi 4: $134.99 CAD + $17.55 tax, free shipping
+
+Schedule-wise, I am a behind on loading the operating system and the breadboard milestone, as I have not been able to get the RP3 to work properly. This puts me approximately two weeks behind schedule. However, if I should get the new RP4 by this weekend, I will be attempting to catch up on installing the OS and connecting the sensor to the breadboard by next week. If all goes well, I will be able to get back on schedule.
+
+I have found the code for the si7021 temperature/humidity sensor as well, and will be attempting to use this code to test the sensor.
+It is uploaded here.
+
+
+Thank you for your time!
 <b>Entry06: 10/15/2019</b>
 
   The schematic of the sensor and raspberry pi:
