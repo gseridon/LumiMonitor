@@ -1,4 +1,5 @@
 <b>Entry06: 11/01/2019</b>
+
 I'm having a lot of problems with the Raspberry Pi at the moment, and it is severely delaying my progress with the course.
 I have set up an OS for the pi during the break, but the pi heats up extremely quickly within the first few minutes of being powered up. The microSD card that I was using for the pi burned out a few days ago as well. This pressured me to purchase another SD card last minute, which did not arrive until Wednesday of this week. This new SD card was also uploaded with the operating system, which the balenaEtcher is verifying to be acceptable to use. However, when I try to install the operating system now, the raspberry pi would still heat up very quickly, and it would show an error on the screen. I have tried several times to reupload the operating system into the SD card, each time the disk imager would verify that the loading was successful (I even used a different SD card from a friend on different attempts). But the same thing occurs, the raspberry pi would continuously show an error and stopping me from installing the operating system, thus halting my progress on the assignment.
 
