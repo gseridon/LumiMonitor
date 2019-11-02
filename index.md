@@ -14,7 +14,7 @@ This week's purchases:
 Schedule-wise, I am a behind on loading the operating system and the breadboard milestone, as I have not been able to get the RP3 to work properly. This puts me approximately two weeks behind schedule. However, if I should get the new RP4 by this weekend, I will be attempting to catch up on installing the OS and connecting the sensor to the breadboard by next week. If all goes well, I will be able to get back on schedule.
 
 I have found the code for the si7021 temperature/humidity sensor as well, and will be attempting to use this code to test the sensor.
-It is uploaded here.
+It is uploaded <a href="https://github.com/gseridon/LumiMonitor/blob/master/Software/si7021_test_code.py">here</a>.
 
 
 <b>Entry06: 10/15/2019</b>
