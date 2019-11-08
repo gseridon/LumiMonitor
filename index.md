@@ -1,3 +1,11 @@
+<b>Entry06: 11/08/2019</b>
+
+As of today, I have caught up with my project schedule. I have received my newly purchased Raspberry Pi 4 on Sunday, November 3rd and have had no problems setting up the operating system and additional upgrades for the coding environment. I have been able to properly assemble my breadboard with the si7021 temperature/humidity sensor and connected them both to the RP4 (as shown below), marking my breadboard milestone for this project.
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/BreadboardMilestone.jpg">
+
+The <a href="https://github.com/gseridon/LumiMonitor/blob/master/Software/si7021_test_code.py">code</a> that I am using from adafruit works properly with the RP4 and sensor, and it is displaying the proper 
+
 <b>Entry06: 11/01/2019</b>
 
 I'm having a lot of problems with the Raspberry Pi at the moment, and it is severely delaying my progress with the course.
