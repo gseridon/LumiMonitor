@@ -4,7 +4,22 @@ As of today, I have caught up with my project schedule. I have received my newly
 
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/BreadboardMilestone.jpg">
 
-The <a href="https://github.com/gseridon/LumiMonitor/blob/master/Software/si7021_test_code.py">code</a> that I am using from adafruit works properly with the RP4 and sensor, and it is displaying the proper 
+The <a href="https://github.com/gseridon/LumiMonitor/blob/master/Software/si7021_test_code.py">code</a> that I am using from adafruit works properly with the RP4 and sensor, and it is displaying the proper temperature and humidity readings from the sensor.
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/CodeTest.jpg">
+
+I have picked up my Printed Circuit Board a couple of weeks ago after submitting my design to the prototype lab, and I have soldered it with headers to allow wires to connect to the board:
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCB.jpg">
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBSoldered.jpg">
+
+To test the circuit of the sensor, breadboard, and PCB, I have connected them to a voltmeter to verify the correct voltage. Recall that this sensor uses 3 VDC. The image below shows that the correct voltage of ~3V is being shown when the RP4 is connected to the sensor via breadboard:
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBTest.jpg">
+
+
+
 
 <b>Entry06: 11/01/2019</b>
 
