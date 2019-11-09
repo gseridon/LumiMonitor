@@ -16,10 +16,17 @@ I have picked up my Printed Circuit Board a couple of weeks ago after submitting
 
 To test the circuit of the sensor, breadboard, and PCB, I have connected them to a voltmeter to verify the correct voltage. Recall that this sensor uses 3 VDC. The image below shows that the correct voltage of ~3V is being shown when the RP4 is connected to the sensor via breadboard:
 
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/BreadboardTest.jpg">
+
+The image below shows that the correct voltage of ~3V is being shown when the RP4 is connected to the sensor via PCB (and using the breadboard as a way to connect the voltmeter):
+
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBTest.jpg">
 
+With these being completed, I am officially on schedule for next week, despite being set back over two weeks due to complications with the raspberry pi.
 
+Financially, I have spent over three times the amount that I initially started with. My initial purchase consisted of $81.89CAD, but with complications with the Raspberry Pi 3 and burning of SD cards, I have spent an additional $166.07CAD in the past week, bringing the total cost to $247.96CAD. I am still in the process of trying to get a refund on the RP3 that I have initially purchase, which could bring down the amount spent below $200. I will post updates on this situation when the refund goes through.
 
+The only other problem that I have encountered after receiving the RP4 is that I cannot seem to connect the pi to my home internet network. This severely limited the amount of time that I have been able to work on this project, needing to contantly travel on campus after class hours to work on. However, despite all the complications and headaches, I'm right on schedule for the following week.
 
 <b>Entry06: 11/01/2019</b>
 
