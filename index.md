@@ -1,6 +1,20 @@
 <b>Entry09: 11/08/2019</b>
 
-I have completely remade the PCB because it was not correctly soldered the headers and it was not powering up properly with the pi, hence I was not able to do an in class demo. I have uploaded an updated version of the Fritzing File for this new PCB; the main change that I have made is a bigger via and thinner wires. The headers are then soldered in the proper position and can now be mounted directly onto the raspberry pi.
+I have completely remade the PCB because it was not correctly soldered the headers and it was not powering up properly with the pi, hence I was not able to do an in class demo. I have uploaded an updated version of the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorWithoutPiV2.fzz">Fritzing File</a> for this new PCB; the main change that I have made is a bigger via and thinner wires. The headers are then soldered in the proper position and can now be mounted directly onto the raspberry pi. Here is the new soldered PCB views (frontside and backside):
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBSolderedV2Front.jpg">
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBSolderedV2Back.jpg">
+
+The PCB fits nicely on top of the raspberry pi now and is directly connected, removing the need for wires:
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBMountedOnPi.jpg">
+
+I have also uploaded a video demo <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/PCBPoweredUpDemo.mp4">here</a> to demonstrate that the pi is receiving information from the sensor through the soldered PCB.
+
+Financial status is the same as last week; the refund is currently being processed and Amazon will inform me of any updates.
+
+Moving forward, I am currently working on the design for the casing of the raspberry pi. Since the PCB is mounted directly on the pi, I would need to design a case for the RP4 with an opening at the top to allow the sensor to evaluate the temperature and humidity. I will be getting this design printed by next week Monday.
 
 <b>Entry08: 11/08/2019</b>
 
