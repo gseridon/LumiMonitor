@@ -1,4 +1,8 @@
-<b>Entry06: 11/08/2019</b>
+<b>Entry09: 11/08/2019</b>
+
+I have completely remade the PCB because it was not correctly soldered the headers and it was not powering up properly with the pi, hence I was not able to do an in class demo. I have uploaded an updated version of the Fritzing File for this new PCB; the main change that I have made is a bigger via and thinner wires. The headers are then soldered in the proper position and can now be mounted directly onto the raspberry pi.
+
+<b>Entry08: 11/08/2019</b>
 
 As of today, I have caught up with my project schedule. I have received my newly purchased Raspberry Pi 4 on Sunday, November 3rd and have had no problems setting up the operating system and additional upgrades for the coding environment. I have been able to properly assemble my breadboard with the si7021 temperature/humidity sensor and connected them both to the RP4 (as shown below), marking my breadboard milestone for this project.
 
@@ -28,7 +32,7 @@ Financially, I have spent over three times the amount that I initially started w
 
 The only other problem that I have encountered after receiving the RP4 is that I cannot seem to connect the pi to my home internet network. This severely limited the amount of time that I have been able to work on this project, needing to contantly travel on campus after class hours to work on. However, despite all the complications and headaches, I'm right on schedule for the following week.
 
-<b>Entry06: 11/01/2019</b>
+<b>Entry07: 11/01/2019</b>
 
 I'm having a lot of problems with the Raspberry Pi at the moment, and it is severely delaying my progress with the course.
 I have set up an OS for the pi during the break, but the pi heats up extremely quickly within the first few minutes of being powered up. The microSD card that I was using for the pi burned out a few days ago as well. This pressured me to purchase another SD card last minute, which did not arrive until Wednesday of this week. This new SD card was also uploaded with the operating system, which the balenaEtcher is verifying to be acceptable to use. However, when I try to install the operating system now, the raspberry pi would still heat up very quickly, and it would show an error on the screen. I have tried several times to reupload the operating system into the SD card, each time the disk imager would verify that the loading was successful (I even used a different SD card from a friend on different attempts). But the same thing occurs, the raspberry pi would continuously show an error and stopping me from installing the operating system, thus halting my progress on the assignment.
