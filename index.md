@@ -1,3 +1,9 @@
+<b>Entry10: 11/19/2019</b>
+
+I have worked on finding an enclosure for my project this week to encase the RP4, PCB, and sensor. I have found a suitable case <a href="https://www.thingiverse.com/thing:3729316">online</a> and printed it in the prototype lab. I have uploaded the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Mechanical/Raspberry_Pi_4_Model_B_Retro_Case_-_All_Parts_v2.0.cdr">CorelDraw .cdr File</a> in the project repository; this is the enclosure design:
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosureDesign.PNG">
+
 <b>Entry09: 11/08/2019</b>
 
 I have completely remade the PCB because it was not correctly soldered the headers and it was not powering up properly with the pi, hence I was not able to do an in class demo. I have uploaded an updated version of the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Electronics/GinoSeridon_TemperatureHumiditySensorWithoutPiV2.fzz">Fritzing File</a> for this new PCB; the main change that I have made is a bigger via and thinner wires. The headers are then soldered in the proper position and can now be mounted directly onto the raspberry pi. Here is the new soldered PCB views (frontside and backside):
