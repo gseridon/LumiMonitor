@@ -8,7 +8,15 @@ The design allows for the raspberry pi ports to have an opening, allows for easy
 
 After laser-cutting the design, I initially intended the sensor to be attached to the PCB, to remove unnecessary wiring. However, after testing the sensor in the enclosure, I have found that when the raspberry pi heats up, it affects the temperature readings of the sensor. Even with all the ventilation holes, the sensor would still be too close to the raspberry pi. Ultimately, I have decided to move the sensor outside of the case, connected to the PCB through wires, and the sensor is secured onto the case using a screw. With the sensor being outside of the case, it will no longer be affected by the heating hardware and it will be more able to accurately measure the temperature and humidity of the surroundings. Here are some photos of the finished, assembled design:
 
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%231.jpg">
 
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%232.jpg">
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%233.jpg">
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%234.jpg">
+
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%235.jpg">
 
 <b>Entry09: 11/08/2019</b>
 
