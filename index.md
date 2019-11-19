@@ -36,6 +36,7 @@ Financial status is the same as last week; the refund is currently being process
 
 Moving forward, I am currently working on the design for the casing of the raspberry pi. Since the PCB is mounted directly on the pi, I would need to design a case for the RP4 with an opening at the top to allow the sensor to evaluate the temperature and humidity. I will be getting this design printed by next week Monday.
 
+
 <b>Entry08: 11/08/2019</b>
 
 As of today, I have caught up with my project schedule. I have received my newly purchased Raspberry Pi 4 on Sunday, November 3rd and have had no problems setting up the operating system and additional upgrades for the coding environment. I have been able to properly assemble my breadboard with the si7021 temperature/humidity sensor and connected them both to the RP4 (as shown below), marking my breadboard milestone for this project.
@@ -120,6 +121,7 @@ Over this past weekend, I had to re-order my Raspberry Pi as the parcel has been
 Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder.png">Amazon</a>, 
 <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/DigikeyOrder.png">Digikey</a>
 
+
 <b>Entry04: 09/24/2019</b>
 
   Today my group members and I had our meeting with our collaborator, running our ideas through him and getting some feedback from him. He was very enthusiastic towards our ideas and offers his full support to the direction of our project.
@@ -128,11 +130,13 @@ Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/
   
   Link: <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">Project Budget PFD</a>
 
+
 <b>Entry03: 09/10/2019</b>
 
   Submission of the hard copy printout of the project proposal. I have completed a project schedule in the form of a gantt chart and have converted it into a PDF. This version of the schedule is uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/LumiMonitorScheduleGanttChart.pdf">here.</a> 
   
   This schedule is based off the due dates outlined in the <a href="https://six0four.github.io/ceng317/">CENG317 Course Repository.</a>
+
 
 <b>Entry02: 09/09/2019</b>
 
@@ -145,6 +149,7 @@ Proof of Purchase: <a href="https://github.com/gseridon/LumiMonitor/blob/master/
   Lastly, I have activated the github master branch for the repository, enabling me to publish the repository website.
   
   Link: <a href="https://gseridon.github.io/LumiMonitor">https://gseridon.github.io/LumiMonitor</a>
+
 
 <b>Entry01: 09/05/2019</b>
 
