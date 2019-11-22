@@ -1,7 +1,8 @@
 <b>Entry11: 11/22/2019</b>
 
-Finishing up the documentation of the project. I have updated the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">final budget</a> of the project along with the associated <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder2.png">receipts</a>. I am on track of my schedule, despite falling behind during the middle of the project. Currently preparing for my presentation on November 25.
-Afterwards, I will be working on the build order of my project.
+Finishing up the documentation of the project. I have updated the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">final budget</a> of the project along with the associated <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder2.png">receipts</a>. Unfortunately, I was not able to get a refund on the initial Raspberry Pi 3 purchase, so that is a cost that I will absorb. Financially, it has cost me a total of $247.96CAD, compared to the initial figure of $81.89CAD.
+
+I am on track of my schedule, despite falling behind during the middle of the project. Currently preparing for my presentation on November 25. Afterwards, I will be working on the build order of my project.
 
 <b>Entry10: 11/19/2019</b>
 
