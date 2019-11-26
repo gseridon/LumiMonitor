@@ -1,3 +1,7 @@
+<b>Entry12: 11/26/2019</b>
+
+The presentation is due today. The powerpoint file has been uploaded into the repository and can be found <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/HardwarePresentation.pptx">here</a>.
+
 <b>Entry11: 11/22/2019</b>
 
 Finishing up the documentation of the project. I have updated the <a href="https://github.com/gseridon/LumiMonitor/blob/master/Documentation/Project%20Budget.pdf">final budget</a> of the project along with the associated <a href="https://github.com/gseridon/LumiMonitor/blob/master/Images/AmazonOrder2.png">receipts</a>. Unfortunately, I was not able to get a refund on the initial Raspberry Pi 3 purchase, so that is a cost that I will absorb. Financially, it has cost me a total of $247.96CAD, compared to the initial figure of $81.89CAD.
