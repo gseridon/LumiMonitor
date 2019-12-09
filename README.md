@@ -9,12 +9,12 @@
 -----
 
 1. [Introduction](https://github.com/gseridon/LumiMonitor#Introduction)
-2. [Specifications](https://github.com/gseridon/LumiMonitor#Introduction)
-3. [Design](https://github.com/gseridon/LumiMonitor#Introduction)
-4. [Acquisition](https://github.com/gseridon/LumiMonitor#Introduction)
-5. [Assembly](https://github.com/gseridon/LumiMonitor#Introduction)
-6. [Testing and Power Up](https://github.com/gseridon/LumiMonitor#Introduction)
-7. [Production Testing](https://github.com/gseridon/LumiMonitor#Introduction)
+2. [Specifications](https://github.com/gseridon/LumiMonitor#Specifications)
+3. [Design](https://github.com/gseridon/LumiMonitor#Design)
+4. [Acquisition](https://github.com/gseridon/LumiMonitor#Acquisition)
+5. [Assembly](https://github.com/gseridon/LumiMonitor#Assembly)
+6. [Testing and Power Up](https://github.com/gseridon/LumiMonitor#Testing-and-Power-Up)
+7. [Production Testing](https://github.com/gseridon/LumiMonitor#Production-Testing)
 
 -----
 
