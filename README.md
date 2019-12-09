@@ -1,21 +1,26 @@
-**Si7021 Temperature and Humidity Module – Build Instructions**
+# Si7021 Temperature and Humidity Module – Build Instructions
 
-**Author: Gino Seridon**
+## Author: Gino Seridon**
 
 
 **Photo of what this is about**
 
-**Table of Contents**
+## Table of Contents
+-----
 
-1. Introduction
-2. Specifications
-3. Design
-4. Acquisition
-5. Assembly
-6. Testing and Power Up
-7. Production Testing
+1. [Introduction](https://github.com/gseridon/LumiMonitor#Introduction)
+2. [Specifications](https://github.com/gseridon/LumiMonitor#Introduction)
+3. [Design](https://github.com/gseridon/LumiMonitor#Introduction)
+4. [Acquisition](https://github.com/gseridon/LumiMonitor#Introduction)
+5. [Assembly](https://github.com/gseridon/LumiMonitor#Introduction)
+6. [Testing and Power Up](https://github.com/gseridon/LumiMonitor#Introduction)
+7. [Production Testing](https://github.com/gseridon/LumiMonitor#Introduction)
 
-**Introduction**
+-----
+
+## Introduction
+
+-----
 
 This readme will allow the user to build and assemble a functioning temperature and humidity reader using the si7021 sensor in conjunction with the Raspberry Pi 4.
 
@@ -25,7 +30,7 @@ While the project was completed over a 13-week semester, following this build in
 
  
 
-**Specifications**
+## Specifications
 
 A complete list of all parts, components, tools, and materials needed for this project will be listed below. Assuming that the user does not own the components, this will be the breakdown of the budget (in Canadian dollars, before shipping):
 
@@ -51,7 +56,7 @@ The cost of shipping is not included as it can vary depending on different facto
 
 
 
-**Design**
+## Design
 
 The design files are important for the project, as they will dictate the appearance of the printed circuit board and the casing. The design of the printed circuit board is simplistic, as there are only four (4) pins used by the si7021 sensor and therefore the connections made from the sensor the RP4 are straightforward.
 
@@ -73,7 +78,7 @@ Obtaining this will be described later in the Acquisition Section.
 
  
 
-**Acquisition**
+## Acquisition
 
 The parts and components needed for this project is listed in the specification. They can be found online, and links are also provided in the specifications section. Allow a couple of days for delivery, depending on the shipping type used to deliver the parts.
 
@@ -163,11 +168,11 @@ Software programs needed include:
 
  
 
-**Assembly**
+## Assembly
 
 Once the components, tools, and materials have been acquired, the project can be assembled.
 
-Installing Raspbian onto the Rasberry Pi 4:
+**Installing Raspbian onto the Rasberry Pi 4:**
 
 The Raspberry Pi must first be setup. On a running Windows Computer, download “Raspbian Buster with desktop and recommended software” from the <a href=” https://www.raspberrypi.org/downloads/raspbian/”>Raspberry Pi Website</a>. When that has completed, insert the microSD card into the USB reader (both from the Raspberry Pi Starter Kit) and then plug it in a USB port on the computer.
 
@@ -179,7 +184,7 @@ Place the microSD card in the microSD reader of the Raspberry Pi 4, then power u
 
  
 
-Si7021 Sensor/Header Soldering:
+**Si7021 Sensor/Header Soldering:**
 
 The Si7021 Temperature and Humidity Sensor should come with its own header. Since the header will not fit on the breakout board initially, use wire cutter so that there will only be 5 pins left on the header. The header will fit perfectly on the board, and the pins should then be soldered. Soldering the 3V pin is optional, as it will not be used.
 
@@ -187,7 +192,7 @@ The Si7021 Temperature and Humidity Sensor should come with its own header. Sinc
 
  
 
-Soldering Headers and VIAs on the Printed Circuit Board (60 mins):
+**Soldering Headers and VIAs on the Printed Circuit Board (60 mins):**
 
 Headers must be soldered on the printed circuit board in order to connect the raspberry pi and the sensor to it. There will be two headers needed for this: 1x5 header, and 2x3 header.
 
@@ -199,7 +204,7 @@ Finally, when both headers are soldered to the board, the VIAs will be soldered 
 
  
 
-Assembling the Enclosure with the Raspberry Pi:
+**Assembling the Enclosure with the Raspberry Pi:**
 
 **Note: Due to the nature of the enclosure, it is highly recommended that the Raspberry Pi 4, the Printed Circuit Board, and the Si7021 Temperature and Humidity Sensor are all configured, tested, and are fully functional before assembling them with the enclosure.
 
@@ -217,7 +222,7 @@ The final result:
 
  
 
-**Testing and Power Up**
+## Testing and Power Up
 
 **Note: Due to the nature of the enclosure, it is highly recommended that the Raspberry Pi 4, the Printed Circuit Board, and the Si7021 Temperature and Humidity Sensor are all configured, tested, and are fully functional before assembling them with the enclosure.
 
@@ -225,20 +230,21 @@ Before testing the Raspberry Pi, the sensor and printed circuit board must be te
 
 Once it is verified that the PCB and sensor are soldered properly, the next step is to ensure that the Raspberry Pi is up to date with its libraries. Use the following commands from the command line to update the raspberry pi:
 
+```
 sudo apt-get install upgrade
 
 sudo apt-get install update
 
 sudo apt-get install i2c-tools
-
+```
  
 
 Once that’s done, run this command to install the Adafruit library:
 
+```
 sudo pip3 install adafruit-circuitpython-si7021
-
+```
  
-
 Then we need to enable the I2C bus on the Pi.
 
 \-   Run sudo raspi-config
@@ -259,21 +265,18 @@ To test the sensor, attach the printed circuit board to the raspberry pi’s pin
 
 Run this command on the command line:
 
-
-
+```
 sudo i2cdetect -y 1
-
+```
  
 
 This will display the open address being used and will display a hexadecimal value representing the module. If the si7021 sensor is being detected properly the address that you will see will be 40.
 
 After confirming that the sensor is being detected, write the code for the sensor. To create the file, type in the command line:
 
-
-
+```
 nano si7021_test_code.py
-
-
+```
 
 “si7021_test_code.py” is the file name. Write in the code in this file (this code is also uploaded in the [repository]):
 
@@ -283,13 +286,15 @@ nano si7021_test_code.py
 
 To run this file, either find the file in the Pi’s directory and run the program using Python, or type in a command in the terminal:
 
+```
 python ./si7021_test_code.py
+```
 
 If all is working well, the sensor should be actively reading the temperature and humidity of its surroundings and updating these values every second on the screen.
 
  
 
-**Production Testing**
+## Production Testing
 
 Based on the components alone, this project is realistically not viable for mass production due to the sheer price of the Raspberry Pi 4. The project can be done using an Arduino, which costs less than the Raspberry Pi, however the steps that will be taken to create a functional project may be vastly different compared to what was explained in this build.
 
