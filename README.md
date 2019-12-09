@@ -1,9 +1,9 @@
-# Si7021 Temperature and Humidity Module – Build Instructions
+# Si7021 Temperature and Humidity Module
+# Build Instructions
 
 ## Author: Gino Seridon**
 
-
-**Photo of what this is about**
+<img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%231.jpg">
 
 ## Table of Contents
 -----
