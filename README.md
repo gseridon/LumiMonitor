@@ -27,7 +27,7 @@ This readme will allow the user to build and assemble a functioning temperature 
 
 The document will cover all points of the build, from the materials, budget and time commitment, to the mechanical assembly, testing, and power up. It will also cover all the problems that was encountered during the project, steps to take to prevent them from occurring, as well as highlighting steps that may cause problems in the future. 
 
-While the project was completed over a 13-week semester, following this build instruction should allow the user to have an assembled and functional module within 4 to 6 hours, given that the required materials and components have already been ordered and ready to be used. 
+While the project was completed over a 13-week semester, following this build instruction should allow the user to have an assembled and functional module within 4 hours, given that the required materials and components have already been ordered and ready to be used. 
 
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/ProjectSystemDiagram.png">
 
@@ -74,7 +74,7 @@ The creation and the design of the PCB is done using the free software <a href="
 
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBV1.png">
 
-The design is simplistic and neat in order to reduce complications. The files can be tweaked for personal customization, but they are perfectly useable in terms of functionality. Obtaining this will be described later on in the Acquisition Section.
+The design is simplistic and neat in order to reduce complications. The files can be tweaked for personal customization, but they are perfectly useable in terms of functionality. There were very little problems when designing the PCB, however, be mindful of the VIA hole size, as it may cause problems when finding a suitable size wire. Obtaining this component will be described later on in the Acquisition Section.
 
 The enclosure is a design that was retrieved <a href="https://www.thingiverse.com/thing:3729316">online</a>. It uses cover design that allows the acrylic to bend over the raspberry pi, with several ventilation holes to help regulate the heat of the RP4.
 
@@ -82,7 +82,7 @@ The enclosure is a design that was retrieved <a href="https://www.thingiverse.co
 
 The <a href="https://github.com/gseridon/LumiMonitor/blob/master/Mechanical/Raspberry_Pi_4_Model_B_Retro_Case_-_All_Parts_v2.0.cdr">design file</a> can be accessed and edited using the program “CorelDRAW”, which offers a 15-day trial for new users. 
 
-Obtaining this will be described later in the Acquisition Section.
+Obtaining this component will be described in the Acquisition Section.
 
 
 -----
@@ -93,7 +93,7 @@ Obtaining this will be described later in the Acquisition Section.
 
 The parts and components needed for this project is listed in the specification. They can be found online, and links are also provided in the specifications section. Allow a couple of days for delivery, depending on the shipping type used to deliver the parts.
 
-Acquiring the PCB and the enclosure will require a bit more time, as they must be custom made based on the design files submitted. It takes around 4-5 business days to process the custom request and to have it delivered to a specified address.
+Acquiring the PCB and the enclosure will require a bit more time, as they must be custom made based on the design files submitted. It takes around 4-5 business days to process the custom request and to have it delivered to a specified address. Plan ahead of time when it comes to this, as this will be the biggest cause of delays should there be problems down the line, especially when getting it replaced.
 
 
 **The Printed Circuit Board**
@@ -207,18 +207,18 @@ Launch balenaEtcher to mount the Raspbian into the microSD card. In balenaEtcher
 
 Proceed by connecting the Raspberry Pi 4 to a mouse to its USB port, a keyboard to the other USB port, and its power supply to the microUSB port. The RP4 comes with its own HDMI cable, and it will be connect to the Pi’s HDMI port to a monitor’s HDMI port.
 
-Place the microSD card in the microSD reader of the Raspberry Pi 4, then power up the Raspberry Pi using the power supply’s power button. The Operating System that was Flashed into the microSD card will automatically be installed on to the new Raspberry Pi. Follow the setup instructions that appear on the screen (and remember any password changes that are made), and the Raspberry Pi will be ready for future use.
+Place the microSD card in the microSD reader of the Raspberry Pi 4, then power up the Raspberry Pi using the power supply’s power button. The Operating System that was Flashed into the microSD card will automatically be installed on to the new Raspberry Pi. Follow the setup instructions that appear on the screen (and remember any password changes that are made), and the Raspberry Pi will be ready for future use. This section should not take more than half an hour, depending on download speed and processing speed.
  
 
 **Si7021 Sensor/Header Soldering:**
 -----
 
-The Si7021 Temperature and Humidity Sensor should come with its own header. Since the header will not fit on the breakout board initially, use wire cutter so that there will only be 5 pins left on the header. The header will fit perfectly on the board, and the pins should then be soldered. Soldering the 3V pin is optional, as it will not be used.
+The Si7021 Temperature and Humidity Sensor should come with its own header. Since the header will not fit on the breakout board initially, use wire cutter so that there will only be 5 pins left on the header. The header will fit perfectly on the board, and the pins should then be soldered. Soldering the 3V pin is optional, as it will not be used. This should take no more than 10 minutes.
 
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/Assembly1.png">
 
 
-**Soldering Headers and VIAs on the Printed Circuit Board (60 mins):**
+**Soldering Headers and VIAs on the Printed Circuit Board:**
 -----
 
 Headers must be soldered on the printed circuit board in order to connect the raspberry pi and the sensor to it. There will be two headers needed for this: 1x5 header, and 2x3 header.
@@ -228,6 +228,8 @@ First, the 1x5 header will be soldered first. This header will be placed on the 
 The second header will then be soldered afterwards. This header will be placed on the bottom side of the PCB, with the pins being solder at the topside of the board. Place the header on the bottom side of the PCB, then turn over the PCB to proceed with soldering the pins. There will be two pins that do not need to be soldered, and it will be the two pins that do not have any connections or labels attached to them. The four pins that will be soldered are the GND, SCL, SDA, and 3Vin.
 
 Finally, when both headers are soldered to the board, the VIAs will be soldered using the 22 gauge insulated wires (these will be thin enough that they will be able to fit through the VIAs). Use the wire stripper to remove the insulation, and fit the wire through the VIA. One end of the wire will be soldered, ensuring that the solder is making contact with the copper wiring on the board. After one end is finished, cut the other end of the wire on the opposite end of the soldered VIA. The remaining insulation is removed from the wire, and then the wire end is soldered to the copper around the VIA. The end result should look like a wire soldered on both ends that is passing through the VIA. Proceed to do these steps until all 4 of the VIAs are connected.
+
+Try to make sure that the solder points are done quickly and neatly. If soldered for too long, some areas of the board may overheat and become unusable, which may cause problems down the line. Do not use too much solder, as it may melt over to neighbouring wires, causing a short in the circuit. Do not rush soldering, but it should not take longer than an hour for this section.
 
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/PCBSolderedV2Front.jpg">
 
@@ -247,7 +249,7 @@ Attach the printed circuit board to the raspberry pi’s pins (the first 6 pins 
 
 Closing the case using the overhead piece is the trickiest part of using this case. Start on the end with the microSD card reader of the RP4. Fit the top piece of the enclosure to the bottom piece where the microSD card hole will be, and then use a single nut and bolt to hold and secure the two pieces together.
 
-Slip the four jumper wires through the top slit near a mounting hole of the overhead piece. Connect these four jumper wires to the Si7021 sensor while keeping in mind the proper GND, SCL, SDA, and 3Vin pins. When the wires are connected, move the sensor so that it is resting on top of the case, and the breakout board’s mounting hole aligns with the mounting hole on the case. Use a nut and bolt to secure the sensor’s position. Afterwards, carefully bend the casing until it encloses the entire raspberry pi, and that it will connect to the bottom case piece on the other side. This side will also have another mounting hole to hold the case in its place using a nut and bolt.
+Slip the four jumper wires through the top slit near a mounting hole of the overhead piece. Connect these four jumper wires to the Si7021 sensor while keeping in mind the proper GND, SCL, SDA, and 3Vin pins. When the wires are connected, move the sensor so that it is resting on top of the case, and the breakout board’s mounting hole aligns with the mounting hole on the case. Use a nut and bolt to secure the sensor’s position. Afterwards, carefully bend the casing until it encloses the entire raspberry pi, and that it will connect to the bottom case piece on the other side. This side will also have another mounting hole to hold the case in its place using a nut and bolt. This part should take around half an hour, assuming the user takes their time and handles the components with care.
 
 **The final result:**
 
@@ -346,6 +348,8 @@ python ./si7021_test_code.py
 If all is working well, the sensor should be actively reading the temperature and humidity of its surroundings and updating these values every second on the screen.
 
 <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/CodeTest.jpg">
+
+This whole section should take around an hour, with variance depending on the speed of download.
  
 
 -----
