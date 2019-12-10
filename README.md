@@ -1,5 +1,6 @@
 # Si7021 Temperature and Humidity Module
 # Build Instructions
+-----
 
 ## Author: Gino Seridon
 
@@ -32,7 +33,11 @@ While the project was completed over a 13-week semester, following this build in
 
 The system diagram above visualizes how the Si7021 Temperature and Humidity sensor retrieves data and interacts with the Raspberry Pi 4 to process the readings of the sensors.
 
+-----
+
 ## Specifications
+
+-----
 
 A complete list of all parts, components, tools, and materials needed for this project will be listed below. Assuming that the user does not own the components, this will be the breakdown of the budget (in Canadian dollars, before shipping):
 
@@ -57,8 +62,11 @@ The total cost of the budget will vary depending on the shipping cost, but it sh
 The cost of shipping is not included as it can vary depending on different factors, such as the address on where the products will be shipped, the shipping method, and membership discounts/free shipping perks. 
 
 
+-----
 
 ## Design
+
+-----
 
 The design files are important for the project, as they will dictate the appearance of the printed circuit board and the casing. The design of the printed circuit board is simplistic, as there are only four (4) pins used by the si7021 sensor and therefore the connections made from the sensor the RP4 are straightforward.
 
@@ -77,13 +85,19 @@ The <a href="https://github.com/gseridon/LumiMonitor/blob/master/Mechanical/Rasp
 Obtaining this will be described later in the Acquisition Section.
 
 
+-----
+
 ## Acquisition
+
+-----
 
 The parts and components needed for this project is listed in the specification. They can be found online, and links are also provided in the specifications section. Allow a couple of days for delivery, depending on the shipping type used to deliver the parts.
 
 Acquiring the PCB and the enclosure will require a bit more time, as they must be custom made based on the design files submitted. It takes around 4-5 business days to process the custom request and to have it delivered to a specified address.
 
+
 **The Printed Circuit Board**
+-----
 
 The PCB design will be sent to Seeedstudio, a company that can manufacture circuit boards. The company requests that the Gerber Files of the project be sent as ZIP or RAR files in order to proceed with the PCB manufacturing. 
 
@@ -107,7 +121,9 @@ To create an order with <a href="https://www.seeedstudio.com/free-assembly-for-5
 
 Note that if some of the PCB specifications are changed, the price will also change accordingly. The site will provide an estimate on how long it will take for the PCB to be manufactured and when it will arrive.
 
+
 **The Enclosure**
+-----
 
 The enclosure design will be sent to Protocase, a company that can manufacture cases and enclosures, among other services. To request for a custom design enclosure, we must export the CorelDRAW file as a .dwg file. This file is uploaded into the repository and it will be used to place the order for the enclosure.
 
@@ -137,7 +153,9 @@ To order from Protocase:
 
 Awaiting the PCB and the enclosure will take around a week, so keep that in mind when setting deadlines.
 
+
 **Tools and Software**
+-----
 
 Lastly, on top of the parts, components, and materials needed for the project, there are also some tools required to setup and assemble the project. These tools include:
 
@@ -170,11 +188,18 @@ Software programs needed include:
 \-   <a href="https://www.balena.io/etcher/">balenaEtcher</a>
  
 
+-----
+
 ## Assembly
+
+-----
+
 
 Once the components, tools, and materials have been acquired, the project can be assembled.
 
+
 **Installing Raspbian onto the Rasberry Pi 4:**
+-----
 
 The Raspberry Pi must first be setup. On a running Windows Computer, download “Raspbian Buster with desktop and recommended software” from the <a href=” https://www.raspberrypi.org/downloads/raspbian/”>Raspberry Pi Website</a>. When that has completed, insert the microSD card into the USB reader (both from the Raspberry Pi Starter Kit) and then plug it in a USB port on the computer.
 
@@ -186,6 +211,7 @@ Place the microSD card in the microSD reader of the Raspberry Pi 4, then power u
  
 
 **Si7021 Sensor/Header Soldering:**
+-----
 
 The Si7021 Temperature and Humidity Sensor should come with its own header. Since the header will not fit on the breakout board initially, use wire cutter so that there will only be 5 pins left on the header. The header will fit perfectly on the board, and the pins should then be soldered. Soldering the 3V pin is optional, as it will not be used.
 
@@ -193,6 +219,7 @@ The Si7021 Temperature and Humidity Sensor should come with its own header. Sinc
 
 
 **Soldering Headers and VIAs on the Printed Circuit Board (60 mins):**
+-----
 
 Headers must be soldered on the printed circuit board in order to connect the raspberry pi and the sensor to it. There will be two headers needed for this: 1x5 header, and 2x3 header.
 
@@ -208,6 +235,7 @@ Finally, when both headers are soldered to the board, the VIAs will be soldered 
 
 
 **Assembling the Enclosure with the Raspberry Pi:**
+-----
 
 **Note: Due to the nature of the enclosure, it is highly recommended that the Raspberry Pi 4, the Printed Circuit Board, and the Si7021 Temperature and Humidity Sensor are all configured, tested, and are fully functional before assembling them with the enclosure.
 
@@ -221,7 +249,7 @@ Closing the case using the overhead piece is the trickiest part of using this ca
 
 Slip the four jumper wires through the top slit near a mounting hole of the overhead piece. Connect these four jumper wires to the Si7021 sensor while keeping in mind the proper GND, SCL, SDA, and 3Vin pins. When the wires are connected, move the sensor so that it is resting on top of the case, and the breakout board’s mounting hole aligns with the mounting hole on the case. Use a nut and bolt to secure the sensor’s position. Afterwards, carefully bend the casing until it encloses the entire raspberry pi, and that it will connect to the bottom case piece on the other side. This side will also have another mounting hole to hold the case in its place using a nut and bolt.
 
-The final result:
+**The final result:**
 
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%235.jpg">
 
@@ -230,7 +258,11 @@ The final result:
 <img src="https://raw.githubusercontent.com/gseridon/LumiMonitor/master/Images/EnclosedProject%233.jpg">
  
 
+-----
+
 ## Testing and Power Up
+
+-----
 
 **Note: Due to the nature of the enclosure, it is highly recommended that the Raspberry Pi 4, the Printed Circuit Board, and the Si7021 Temperature and Humidity Sensor are all configured, tested, and are fully functional before assembling them with the enclosure.
 
@@ -316,7 +348,11 @@ If all is working well, the sensor should be actively reading the temperature an
 <img src="https://github.com/gseridon/LumiMonitor/blob/master/Images/CodeTest.jpg">
  
 
+-----
+
 ## Production Testing
+
+-----
 
 Based on the components alone, this project is realistically not viable for mass production due to the sheer price of the Raspberry Pi 4. The project can be done using an Arduino, which costs less than the Raspberry Pi, however the steps that will be taken to create a functional project may be vastly different compared to what was explained in this build.
 
